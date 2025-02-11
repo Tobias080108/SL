@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Bonusaufgaben Anleitung</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        <style>
+
+</style>
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="bonusaufgaben-anleitung">Bonusaufgaben Anleitung</h1>
+<h2 id="infos">Infos</h2>
+<p>Für jede der Animationsaufgaben muss das veraltete <a href="https://webtigerjython.ethz.ch/">WebtierJython</a> verwendet werden.</p>
+<p><strong>In Webtigerjython funktioniert <code>t.fd</code> und alles weitere mit <code>t.</code> nicht. Es muss nur <code>fd</code> oder <code>rt</code> usw. verwendet werden</strong></p>
+<p><a href="https://www.jython.ch/index.php?inhalt_links=navigation.inc.php&amp;inhalt_mitte=turtle/turtledoc.html">Python Theorie</a></p>
+<p>Diese Aufgaben sind alle zusätzlich und sollten euch fordern.</p>
+<h2 id="animationen">Animationen</h2>
+<p>Alle Animationen sollte möglichst optimal gemacht werden, also so wenig code wie möglich.</p>
+<p>Die Animationen sollte auch nicht nach 20 Sekunden Abstürzen.</p>
+<h3 id="auto">Auto</h3>
+<p>Das Auto ist eine simple Aufgabe als einführung in die Animation gedacht.</p>
+<p>Das Auto sollte mindestens aus einem haupt Block und zwei Rädern bestehen.</p>
+<p>Das Auto sollte sich von Links nach Rechts über den Bilschirm Bewegen.</p>
+<h4 id="bonus">Bonus</h4>
+<p>Das Auto sollte sich an den Start zurücksetzen oder die Richtung wechseln sobald es den Rand des Bildschirms erreicht.</p>
+<h3 id="pong">Pong</h3>
+<p>Ein Programm wo ein Ball zwischen zwei Pfosten hin und her springt</p>
+<h4 id="bonus-1">Bonus</h4>
+<p>Die Platformen bewegen sich und der Ball wird immer gefangen.</p>
+<h3 id="windmüle">Windmüle</h3>
+<p>Die Windmüle besteht aus einem haupt Block und aus einem Windrad.</p>
+<p>Das Windrad sollte sich drehen und der Block sollte sich nicht bewegen.</p>
+<p>Bsp.</p>
+<img src="file:////Bilder/Windmuele.png" alt="windmill image" width="300">
+<h3 id="mandala">Mandala</h3>
+<h2 id="loops">Loops</h2>
+<h3 id="mandala-1">Mandala</h3>
+<p>Das Mandal ist ein Test deiner Funktionskünste. Hier werden Mehrere Formen in verschiedenen Farben ein nach dem Anderenen estellt um am schluss ein Bild zu erstellen.</p>
+<p>Die Formen und Farben sind frei wählbar.</p>
+<img src="file:///c:\Users\U61055\source\repos\Schnupperlehre\Apps\Appli\GTurtle\Webtiger\Bilder\Mandala.png" alt="mandala" width="300">
+<h3 id="sierpinski">Sierpinski</h3>
+<p>Hier erstellt ihr ein <a href="https://de.wikipedia.org/wiki/Sierpinski-Dreieck">Sierpinski Dreieck</a></p>
+<p>Einfach mal versuchen.</p>
+<h3 id="drachenfraktale">Drachenfraktale</h3>
+<p>Für diese Aufgabe wird Recherche gebraucht</p>
+<p>Bild des Endresultats</p>
+<img src="file:///c:\Users\U61055\source\repos\Schnupperlehre\Apps\Appli\GTurtle\Webtiger\Bilder\drache.png" alt="Drache" width="300">
+<p>Das ist nicht erwartet das ihr das herausfindet. Lasst euch aber die Lösung erklären.</p>
+
+            
+            
+        </body>
+        </html>
